@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Tic Tac Toe</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <div class="player-info">
+            <div id="player-x" class="player active-player">
+                Player X
+            </div>
+            <div id="player-o" class="player">
+                Player O
+            </div>
+        </div>
+        <div id="status">Player X's turn</div>
+        <div id="game-board"></div>
+        <div class="button-container">
+            <button id="reset-btn" onclick="resetGame()">Reset Game</button>
+            <button id="new-game-btn" onclick="newGame()">New Game</button>
+        </div>
+    </div>
+<script src="/js/script.js"></script>
+</body>
+</html>
